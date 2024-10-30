@@ -665,7 +665,6 @@ img {
   fill: #f4f4fd;
 }
 .footer-form {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -737,7 +736,8 @@ img {
   .container-footer {
     max-width: 552px;
     justify-content: space-between;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .footer-logo-container {
     max-width: 264px;
@@ -750,7 +750,7 @@ img {
     justify-content: start;
   }
   .subscribe {
-    justify-content: space-between;
+    gap: 24px;
   }
   .footer-link:hover {
     background-color: #31d0aa;
@@ -765,6 +765,9 @@ img {
   }
   .footer-input {
     width: 264px;
+  }
+  .footer-btn {
+    margin: 0;
   }
   .footer-btn:hover.footer-btn:focus {
     background: #404bbf;
@@ -786,6 +789,8 @@ img {
   .container-footer {
     max-width: 1158px;
     align-items: baseline;
+    gap: 0;
+    flex-wrap: nowrap;
   }
   .footer-logo-container {
     margin-right: 120px;
