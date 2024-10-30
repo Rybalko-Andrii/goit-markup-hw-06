@@ -62,6 +62,7 @@
             </li>
           </ul>
         </address>
+        <!-- Mobile menu -->
         <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-header-btn"></use>
@@ -71,15 +72,68 @@
       <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close" type="button" data-menu-close>
-            X
+            <svg class="menu-exit-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
           </button>
-          <nav class="mobile-menu-nav"></nav>
-          <address></address>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <nav class="mobile-menu-nav">
+            <ul class="mobil-menu-list">
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-link mobile-link-page-after" href=""
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="menu-contacts-list">
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-social-list">
+            <li class="menu-social-list-item">
+              <a class="menu-link" href="">
+                <svg class="menu-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-list-item">
+              <a class="menu-link" href="">
+                <svg class="menu-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-list-item">
+              <a class="menu-link" href="">
+                <svg class="menu-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-list-item">
+              <a class="menu-link" href="">
+                <svg class="menu-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -87,7 +141,7 @@
     <!-- Main -->
     <main>
       <!-- Section wrapper -->
-      <section class="wrapper hidden">
+      <section class="wrapper">
         <div class="container">
           <h1 class="wrapper-title">Effective Solutions for Your Business</h1>
           <button class="wrapper-button" type="button" data-modal-open>
