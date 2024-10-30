@@ -370,6 +370,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  justify-content: center;
 }
 
 .team-item {
@@ -735,7 +736,7 @@ img {
 @media screen and (min-width: 768px) {
   .container-footer {
     max-width: 552px;
-    justify-content: space-between;
+    justify-content: start;
     column-gap: 24px;
     row-gap: 72px;
   }
